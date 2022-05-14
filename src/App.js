@@ -5,7 +5,7 @@ import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
 
 function App() {
-  const categories = [
+  const [categories] = useState([
     {
       name: "Phase 1",
       description:
@@ -19,7 +19,8 @@ function App() {
       name: "Phase 3", 
       description: "Computer Science, NoSQL, PWAs, React, MERN, State" 
     },
-  ];
+  ]);
+  
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   const [contactSelected, setContactSelected] = useState(false);

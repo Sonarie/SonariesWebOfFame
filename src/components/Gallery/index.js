@@ -1,5 +1,5 @@
 import React from 'react';
-import Webpages from '../webPages';
+import Webpages from '../Webpages';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Gallery(props) {
