@@ -48,6 +48,11 @@ function Nav(props) {
               </span>
             </li>
           ))}
+          <li className="mx-2">
+            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
