@@ -27,9 +27,9 @@ function Nav(props) {
             <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               About me
             </a>
-            </li>
+          </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact Me</span>
+            <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
           {categories.map((category) => (
             <li
@@ -48,11 +48,6 @@ function Nav(props) {
               </span>
             </li>
           ))}
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              Resume
-            </a>
-          </li>
         </ul>
       </nav>
     </header>
