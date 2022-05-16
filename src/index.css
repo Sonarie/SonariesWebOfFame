@@ -50,7 +50,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
-  color: var(--light);
+  color: var(--tertiary);
   font-family: 'Poiret One', cursive;
 
 }
@@ -125,7 +125,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--dark);
 }
 
 button:hover {
@@ -288,7 +288,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--tertiary);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
