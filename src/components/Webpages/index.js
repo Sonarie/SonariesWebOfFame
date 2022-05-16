@@ -53,4 +53,4 @@ const WebPages = ({ category }) => {
   );
 };
 
-export default WebPages;
+export default Portfolio;

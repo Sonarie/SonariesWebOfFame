@@ -283,7 +283,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--light);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -296,7 +296,7 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--light);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;

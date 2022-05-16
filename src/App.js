@@ -6,51 +6,83 @@ import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState('About');
 
-function App() {
-  const [categories] = useState([
-    {
-      name: "Phase_1",
-      description:
-        "HTML, CSS, and Git, Advanced CSS, JavaScript, Web APIs, Third-Party APIs, Server-Side APIs",
-    },
-    { 
-      name: "Phase_2", 
-      description: "Node.js, OOP, Express.js, SQL, ORM, MVC" 
-    },
-    { 
-      name: "Phase_3", 
-      description: "Computer Science, NoSQL, PWAs, React, MERN, State" 
-    },
-  ]);
-  
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <ContactForm />;
+  };
 
-  const [contactSelected, setContactSelected] = useState(false);
+  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
-            <Resume></Resume>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
       <Footer></Footer>
     </div>
   );
 }
 
-export default App;
+
+
+// function App() {
+//   const [categories] = useState([
+//     {
+//       name: "About Me",
+//     },
+//     { 
+//       name: "Portfolio", 
+//     },
+//     { 
+//       name: "Resume", 
+//     },
+//     { 
+//       name: "Contact", 
+//     },
+//   ]);
+  
+//   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+//   const [contactSelected, setContactSelected] = useState(false);
+
+//   return (
+//     <div>
+//       <Nav
+//         categories={categories}
+//         setCurrentCategory={setCurrentCategory}
+//         currentCategory={currentCategory}
+//         contactSelected={contactSelected}
+//         setContactSelected={setContactSelected}
+//       ></Nav>
+//       <main>
+//         {!contactSelected ? (
+//           <>
+//             <Portfolio currentCategory={currentCategory}></Portfolio>
+//             <About></About>
+//             <Resume></Resume>
+//           </>
+//         ) : (
+//           <ContactForm></ContactForm>
+//         )}
+//       </main>
+//       <Footer></Footer>
+//     </div>
+//   );
+// }
+
+//export default App;
+
+
+

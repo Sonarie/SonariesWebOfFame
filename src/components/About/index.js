@@ -1,9 +1,9 @@
 import React from 'react';
 import coverImage from "../../assets/cover/headshot.jpg";
-function About() {
+
+export default function About() {
   return (
   <section className="my-5">
-    <h1 id="about">Who I Am</h1>
     <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
     <div className="my-2">
         <p>
@@ -21,4 +21,3 @@ function About() {
   );
 }
 
-export default About;
