@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sonarie-web-of-fame/static/css/main.fe366032.css",
+    "main.js": "/sonarie-web-of-fame/static/js/main.d7ffd5cf.js",
+    "static/js/787.4561154a.chunk.js": "/sonarie-web-of-fame/static/js/787.4561154a.chunk.js",
+    "static/media/0.jpg": "/sonarie-web-of-fame/static/media/0.cdb2594228a3f2d56a80.jpg",
+    "static/media/4.jpg": "/sonarie-web-of-fame/static/media/4.f680df78df2eb56b44a9.jpg",
+    "static/media/resume.pdf": "/sonarie-web-of-fame/static/media/resume.c3a5204687c6538334ee.pdf",
+    "static/media/2.jpg": "/sonarie-web-of-fame/static/media/2.abe8fa5b225c83d243d7.jpg",
+    "static/media/1.jpg": "/sonarie-web-of-fame/static/media/1.beb70d3b2fd92fb7dc7b.jpg",
+    "static/media/5.jpg": "/sonarie-web-of-fame/static/media/5.2c9e7ff7b15ebe7703d5.jpg",
+    "static/media/3.jpg": "/sonarie-web-of-fame/static/media/3.453cff7d1ce683ba122b.jpg",
+    "static/media/headshot.jpg": "/sonarie-web-of-fame/static/media/headshot.09c2ea62c1c68788e25c.jpg",
+    "index.html": "/sonarie-web-of-fame/index.html",
+    "main.fe366032.css.map": "/sonarie-web-of-fame/static/css/main.fe366032.css.map",
+    "main.d7ffd5cf.js.map": "/sonarie-web-of-fame/static/js/main.d7ffd5cf.js.map",
+    "787.4561154a.chunk.js.map": "/sonarie-web-of-fame/static/js/787.4561154a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe366032.css",
+    "static/js/main.d7ffd5cf.js"
+  ]
+}
