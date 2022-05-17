@@ -17,6 +17,9 @@
 
 This is my portfolio of the projects I'm most proud of creating during my time in Bootcamp to be a Full Stack Developer
 
+![image](https://user-images.githubusercontent.com/94268540/168520285-b0e611dc-63aa-478f-a1a1-a7012d253389.png)
+
+
 ## Installation
 
 React
