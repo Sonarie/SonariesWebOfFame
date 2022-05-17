@@ -78,20 +78,3 @@ const Portfolio = ({ category }) => {
 };
 
 export default Portfolio;
-
-//import Webpages from '../Webpages';
-//import { capitalizeFirstLetter } from '../../utils/helpers';
-
-// function Portfolio(props) {
-//   //const { currentCategory } = props;
-//   return (
-//     <section>
-//         <h1>Hello World</h1>
-//     </section>
-//   );
-// }
-// export default Portfolio;
-
-{/* <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-<p>{currentCategory.description}</p>
-<Webpages category={currentCategory.name} /> */}
