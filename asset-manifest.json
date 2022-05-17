@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sonarie-web-of-fame/static/css/main.fe366032.css",
-    "main.js": "/sonarie-web-of-fame/static/js/main.d7ffd5cf.js",
+    "main.css": "/sonarie-web-of-fame/static/css/main.e73fcde3.css",
+    "main.js": "/sonarie-web-of-fame/static/js/main.fa911ecf.js",
     "static/js/787.4561154a.chunk.js": "/sonarie-web-of-fame/static/js/787.4561154a.chunk.js",
     "static/media/0.jpg": "/sonarie-web-of-fame/static/media/0.cdb2594228a3f2d56a80.jpg",
     "static/media/4.jpg": "/sonarie-web-of-fame/static/media/4.f680df78df2eb56b44a9.jpg",
@@ -12,12 +12,12 @@
     "static/media/3.jpg": "/sonarie-web-of-fame/static/media/3.453cff7d1ce683ba122b.jpg",
     "static/media/headshot.jpg": "/sonarie-web-of-fame/static/media/headshot.09c2ea62c1c68788e25c.jpg",
     "index.html": "/sonarie-web-of-fame/index.html",
-    "main.fe366032.css.map": "/sonarie-web-of-fame/static/css/main.fe366032.css.map",
-    "main.d7ffd5cf.js.map": "/sonarie-web-of-fame/static/js/main.d7ffd5cf.js.map",
+    "main.e73fcde3.css.map": "/sonarie-web-of-fame/static/css/main.e73fcde3.css.map",
+    "main.fa911ecf.js.map": "/sonarie-web-of-fame/static/js/main.fa911ecf.js.map",
     "787.4561154a.chunk.js.map": "/sonarie-web-of-fame/static/js/787.4561154a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe366032.css",
-    "static/js/main.d7ffd5cf.js"
+    "static/css/main.e73fcde3.css",
+    "static/js/main.fa911ecf.js"
   ]
 }
