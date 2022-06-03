@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/sonarie-web-of-fame/static/css/main.e73fcde3.css",
-    "main.js": "/sonarie-web-of-fame/static/js/main.fa911ecf.js",
+    "main.js": "/sonarie-web-of-fame/static/js/main.9d78c21c.js",
     "static/js/787.4561154a.chunk.js": "/sonarie-web-of-fame/static/js/787.4561154a.chunk.js",
-    "static/media/0.jpg": "/sonarie-web-of-fame/static/media/0.cdb2594228a3f2d56a80.jpg",
-    "static/media/4.jpg": "/sonarie-web-of-fame/static/media/4.f680df78df2eb56b44a9.jpg",
+    "static/media/3.jpg": "/sonarie-web-of-fame/static/media/3.93e258811c3ad1faba46.jpg",
+    "static/media/0.jpg": "/sonarie-web-of-fame/static/media/0.01ee66c93cb1832b4d71.jpg",
+    "static/media/1.jpg": "/sonarie-web-of-fame/static/media/1.d0052e001785fefedc4f.jpg",
+    "static/media/4.jpg": "/sonarie-web-of-fame/static/media/4.83c0ee5ef56d8626d422.jpg",
     "static/media/resume.pdf": "/sonarie-web-of-fame/static/media/resume.c3a5204687c6538334ee.pdf",
-    "static/media/2.jpg": "/sonarie-web-of-fame/static/media/2.abe8fa5b225c83d243d7.jpg",
-    "static/media/1.jpg": "/sonarie-web-of-fame/static/media/1.beb70d3b2fd92fb7dc7b.jpg",
-    "static/media/5.jpg": "/sonarie-web-of-fame/static/media/5.2c9e7ff7b15ebe7703d5.jpg",
-    "static/media/3.jpg": "/sonarie-web-of-fame/static/media/3.453cff7d1ce683ba122b.jpg",
+    "static/media/2.jpg": "/sonarie-web-of-fame/static/media/2.fe6ff1f2833e352a8692.jpg",
+    "static/media/5.jpg": "/sonarie-web-of-fame/static/media/5.5472ceedb0bb38517ffd.jpg",
     "static/media/headshot.jpg": "/sonarie-web-of-fame/static/media/headshot.09c2ea62c1c68788e25c.jpg",
     "index.html": "/sonarie-web-of-fame/index.html",
     "main.e73fcde3.css.map": "/sonarie-web-of-fame/static/css/main.e73fcde3.css.map",
-    "main.fa911ecf.js.map": "/sonarie-web-of-fame/static/js/main.fa911ecf.js.map",
+    "main.9d78c21c.js.map": "/sonarie-web-of-fame/static/js/main.9d78c21c.js.map",
     "787.4561154a.chunk.js.map": "/sonarie-web-of-fame/static/js/787.4561154a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e73fcde3.css",
-    "static/js/main.fa911ecf.js"
+    "static/js/main.9d78c21c.js"
   ]
 }
